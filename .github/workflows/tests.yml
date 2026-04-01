@@ -38,3 +38,4 @@ jobs:
           OCI_OCPUS: ${{ secrets.OCI_OCPU_COUNT }}
           OCI_MEMORY_IN_GBS: ${{ secrets.OCI_MEMORY_IN_GBS }}
           OCI_SHAPE: ${{ secrets.OCI_SHAPE }}
+          OCI_SSH_PUBLIC_KEY: ${{ secrets.OCI_SSH_PUBLIC_KEY }}
