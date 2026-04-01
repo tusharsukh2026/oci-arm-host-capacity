@@ -20,7 +20,7 @@ jobs:
         run: composer install --prefer-dist --no-progress
 
       - name: Run OCI instance creator
-        run: php run.php
+        run: php index.php
         env:
           OCI_REGION: ${{ secrets.OCI_REGION }}
           OCI_USER_ID: ${{ secrets.OCI_USER_ID }}
